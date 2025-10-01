@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/nether_star"
+    },
+    "cases": [
+      {
+        "when": "lifestealz_defaultheart",
+        "model": {
+          "type": "model",
+          "model": "item/lifestealz_defaultheart"
+        }
+      }
+    ]
+  }
+}

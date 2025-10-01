@@ -1,2 +1,2 @@
-# cubic-club-resourse-pack
-cubic-club-resourse-pack
+# ResoursePack for server
+Просто текстурпак

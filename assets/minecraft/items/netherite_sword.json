@@ -1,0 +1,54 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/netherite_sword"
+    },
+    "cases": [
+      {
+        "when": "sharpest_sword",
+        "model": {
+          "type": "model",
+          "model": "item/sharpest_sword"
+        }
+      },
+      {
+        "when": "divine_sword",
+        "model": {
+          "type": "model",
+          "model": "item/divine_sword"
+        }
+      },
+      {
+        "when": "reduction_bracelet",
+        "model": {
+          "type": "model",
+          "model": "item/reduction_bracelet"
+        }
+      },
+      {
+        "when": "invisible_bracelet",
+        "model": {
+          "type": "model",
+          "model": "item/invisible_bracelet"
+        }
+      },
+      {
+        "when": "netherite_sharpest_sword",
+        "model": {
+          "type": "model",
+          "model": "item/netherite_sharpest_sword"
+        }
+      },
+      {
+        "when": "pensil",
+        "model": {
+          "type": "model",
+          "model": "item/pensil"
+        }
+      }
+    ]
+  }
+}

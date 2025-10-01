@@ -1,0 +1,47 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/structure_void"
+    },
+    "cases": [
+      {
+        "when": "fire_stick",
+        "model": {
+          "type": "model",
+          "model": "item/fire_stick"
+        }
+      },
+      {
+        "when": "custom_iron",
+        "model": {
+          "type": "model",
+          "model": "item/custom_iron"
+        }
+      },
+      {
+        "when": "speed_helmet",
+        "model": {
+          "type": "model",
+          "model": "item/speed_helmet"
+        }
+      },
+      {
+        "when": "miner_helmet",
+        "model": {
+          "type": "model",
+          "model": "item/miner_helmet"
+        }
+      },
+      {
+        "when": "sieve",
+        "model": {
+          "type": "model",
+          "model": "item/sieve"
+        }
+      }
+    ]
+  }
+}
